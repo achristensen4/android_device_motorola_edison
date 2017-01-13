@@ -33,7 +33,7 @@ persist.mot.proximity.touch=1
 # End IKSHADOW-619
 
 persist.mot.usb.mediasync = 1
-# persist.usb.android_config = 1
+persist.usb.android_config = 1
 
 #Proximity sensor debounce time
 mot.proximity.delay=450
@@ -76,16 +76,16 @@ ro.HorizontalBUA=true
 ro.media.enc.aud.fileformat=amr
 ro.media.enc.aud.codec=amrnb
 android.os.build.BRAND=ATT
-ro.mot.noroamingicon=1
+ro.mot.noroamingicon=0
 ro.hss6upgrade.hide.motocastid=TRUE
 ro.camcorder.mute=false
 ro.camera.dynamicFocus=true
-ro.camcorder.videoModes=false
+ro.camcorder.videoModes=true
 media.stagefright.enable-player=true
 media.stagefright.enable-meta=true
-media.stagefright.enable-scan=false
+media.stagefright.enable-scan=true
 media.stagefright.enable-http=true
-media.stagefright.enable-record=false
+media.stagefright.enable-record=true
 ro.media.camera.focal=3451.0,3451.0
 ro.media.camera.principal=1632.0,1224.0
 ro.media.camera.skew=0.0
